@@ -5,8 +5,13 @@ This is a 3D "less than" sudoku with some additional constraints.
 - Install python3 if not already on your computer: https://installpython3.com/mac/
 - clone git repository
 - cd to the repository directory
-- run "pip install -r requirements.txt" to install necessary packages
-  - replace "pip" as necessary for your python3 installation
+- create the virtual environment
+  -	“python3 -m venv env”
+- start the virtual environment
+  - “source env/bin/activate”
+- add the necessary library, z3
+  -  “python3 -m pip install z3-solver”
+- replace "pip" as necessary for your python3 installation
 - run the file!
 
 # HOW TO RUN FILE:
