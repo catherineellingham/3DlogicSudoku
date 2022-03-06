@@ -1,0 +1,4 @@
+# things here do not get added to git
+env/
+2dsudoku.py
+3dsudoku.py
